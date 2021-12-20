@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        description="Ez az utolsó házifeladat, strandolós témakörben, válassz kedvedre való helyet és találj szállást itthon!">
+    <title>Házi feladat 5 | Kovács Andrea</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+
+        </header>
+        <div class="table">
+            <div class="right-column">
+                <section class="sectionstyle1" id="1">
+                    <img src="img/siofok_ujhelyi_strand_kicsi.png" alt="Siófoki strand">
+                    <h3 id="BALATON">BALATON</h3><br>
+                    <p> Balaton és környéke Magyarország legnépszerűbb üdülőhelye, amely
+                        vonzó úticél a hazai és külföldi
+                        turisták számára egyaránt. Nem véletlenül van így, hiszen vízparti kikapcsolódás, történelmi
+                        emlékek,
+                        különleges természeti értékek, remek kirándulási lehetőségek várják a látogatókat a "magyar
+                        tengernél".
+                        <br>A Balatonon évről évre egyre több fesztivál, rendezvény gondoskodik a kellemes időtöltésről.
+                        Szüreti
+                        fesztiválok, borhetek, borünnepek várják a borkedvelőket és a mulatozni vágyókat. Nevezetes
+                        esemény a
+                        minden év július utolsó szombatján megrendezésre kerülő balatonfüredi Anna-bál. Remek programok
+                        várják a
+                        Balaton vendégeit nyáron a Művészetek Völgye néven ismert kulturális fesztiválon. A környékbeli
+                        lovardák
+                        és lovastanyák csikós-, vagy huszárbemutatóval szórakoztatják az érdeklődőket. Nagy
+                        népszerűségnek
+                        örvendenek vitorlás- és Balaton-átúszó versenyek is.
+                    </p>
+                </section>
+                <section class="sectionstyle2" id="2">
+                    <img src="img/Abadszalok_Strand_kicsi.png" alt="Abádszalóki strand">
+                    <h3 id="TISZA-TÓ">TISZA-TÓ</h3><br>
+                    <p> A Tisza-tó Magyarország második legnagyobb, de egyben legfiatalabb
+                        tava, eredeti nevén a
+                        Kiskörei-víztározó, amely a Kiskörei vízlépcső által biztosított duzzasztás hatására jött
+                        létre.<br>A
+                        Tisza-tó Heves és Jász-Nagykun-Szolnok megye határán folyó Tiszát öleli, markáns kontúrját az
+                        árvízvédelmi töltések adják. Létrehozásának célja elsősorban a vízhasznosítás volt. Területe 127
+                        négyzetkilométer, ami egyötöde a Balatonnak, viszont majdnem ötszöröse a Velencei-tónak.<br>
+                        Rendkívül kedvelt úti cél, partján gyönyörű, homokos strandok találhatók. A Tisza-tónál rengeteg
+                        programon vehetünk részt évszaktól függően, a tó északi partján még madárrezervátum is
+                        található. A
+                        Tisza-tó belsejében egy 23 négyzetkilométeres sziget alakult ki, ahol a sekély vízmélységből
+                        kifolyólag
+                        sajátos vízi világ alakult ki.
+                    </p>
+
+                </section>
+                <section class="sectionstyle3" id="3">
+                    <img src="img/Szelidi-to.jpg" alt="Szelidi-tó">
+                    <h3 id="SZELIDI-TÓ">SZELIDI-TÓ</h3><br>
+                    <p>A Kiskunság legkedveltebb kiránduló- és üdülõhelye - tavasztól
+                        õszig egészen biztosan - a Szelidi-tó. A
+                        tó homokos strandja, szállodája, kempingjei, magánüdülõi, vendéglõi, szabadtéri színpada nyugodt
+                        kikapcsolódást és mozgalmasabb szórakozást is kínálnak az idelátogató vendégeknek. <br>
+                        Szelidi-tó 5 km hosszú, 150-200 m széles, 3-4 m mély, vízfelülete megközelítõleg 80 ha., ezzel
+                        hazánk
+                        ötödik legnagyobb tava. A tó déli partján nyugalomba jutott futóhomok területein kellemes
+                        strandok
+                        kerületek kialakításra.
+                    </p>
+                </section>
+            </div>
+            <div class="left-column">
+                <aside>
+                    <ul class="menu">
+                        <li><a href="#BALATON">BALATON</a></li>
+                        <li><a href="#TISZA-TÓ">TISZA-TÓ</a></li>
+                        <li><a href="#SZELIDI-TÓ">SZELIDI-TÓ</a></li>
+                    </ul>
+                    <form class="form" action="" method="post">
+                        <h1>Kérem töltse ki a jelentkezési űrlapot!</h1> <br>
+                        <label class="label" for="name">Név</label><br>
+                        <input class="input" type="text" name="name" id="name" placeholder="pl. Kovács Andrea"
+                            autocomplete="off" required /><br><br>
+                        <label class="label" for="email">Email cím</label><br>
+                        <input class="input" type="email" name="email" id="email"
+                            placeholder="pl. andrea18kovacs@gmail.com" autocomplete="off" required><br><br>
+                        <label class="label" for="phone">Telefonszám</label><br>
+                        <input class="input" type="text" name="phone" id="phone" placeholder="pl. 06-30-7428579"
+                            autocomplete="off" required><br><br>
+                        <label class="label" for="place">Melyik tó érdekli?</label><br>
+                        <select class="dropdown" name="placetype" id="place" size="1" single required><br>
+                            <option value="Balaton">Balaton</option>
+                            <option value="Tisza-tó">Tisza-tó</option>
+                            <option value="Szelidi-tó">Szelidi-tó</option>
+                        </select><br><br>
+                        <label class="label" for="accomodationtype">Milyen szállást keres?</label><br>
+                        <select class="dropdown" name="accomodationtype" id="accomodationtype" size="3" multiple
+                            required><br>
+                            <option value="Szálloda">Szálloda</option>
+                            <option value="Apartmanház">Apartmanház</option>
+                            <option value="Kemping">Kemping</option>
+                        </select><br><br>
+                        <label class="label" for="cafeteriatype">Milyen ellátás legyen?</label><br>
+                        <select class="dropdown" name="cafeteriatype" id="cafeteriatype" size="1" single required><br>
+                            <option value="Teljes ellátás">Teljes ellátás</option>
+                            <option value="Félpanzió">Félpanzió</option>
+                            <option value="Csak reggeli">Csak reggeli</option>
+                            <option value="Nem kérek ellátást">Nem kérek ellátást</option>
+                        </select><br><br>
+                        <label class="label" for="message">Egyéb kérés</label><br>
+                        <textarea class="input" name="message" id="message" cols="15" rows="5"></textarea><br><br>
+                        <input class="submit" type="submit" value="Mehet"><br>
+
+                    </form>
+
+                </aside>
+            </div>
+        </div>
+        <footer>
+            <p>Minden jog fenntartva &copy; 2021. Kovács Andrea</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
